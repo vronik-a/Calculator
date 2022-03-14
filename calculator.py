@@ -12,9 +12,13 @@ elif (operator == '/'):
     print(x/y)
 elif (operator == '%'):
     print(x%y)
+elif (operator == '**'):
+    print(x**y)
+elif (operator == '//'):
+    print(x//y)
 elif (operator!='+' or operator !='-' or operator !='*' or operator !='/'):
     print("the operator isn't correct")
-    operator = input('choose between +, -, *, /, or % ')
+    operator = input('choose between +, -, *, /, %, //, or **')
     if (operator == '+'):
         print(x+y)
     elif (operator == '-'):
@@ -25,3 +29,7 @@ elif (operator!='+' or operator !='-' or operator !='*' or operator !='/'):
         print(x/y)
     elif (operator == '%'):
         print(x%y)
+    elif (operator == '**'):
+        print(x**y)
+    elif (operator == '//'):
+        print(x//y)
